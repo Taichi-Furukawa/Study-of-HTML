@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html　lang="jp">
+<head>
+<title>sample</title>
+<meta http-equiv="content-type" content="text/html"; charset="UTF-8">
+<script type="text/javascript">
+<!--
+function nowTime(){
+dd=new Date();
+document.F1.T1.value = dd.toLocaleString();
+window.setTimeout("nowTime()",1000);
+}
+// -->
+</script>
+</head>
+<body onload="nowTime()">
+	<header>
+	<h1>It' now time!</h1>
+	</header>
+
+	<article>
+		<p>
+	<form name="F1" action="#">
+		<input type="text" name="T1" size=50>
+	</form>
+		</p>
+	</article>
+
+	<footer>
+		<h3>thank you for writing</h3>
+	</footer>
+</body>
+</html>
